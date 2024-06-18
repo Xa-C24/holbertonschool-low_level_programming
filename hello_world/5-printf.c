@@ -2,8 +2,8 @@
 /**
  * main - prints "program that prints a line with print function"
  *
- * printf print the message
- * return value 0 (Sucess)
+ * Description: printf print the message
+ * Return: value 0
 */
 int main(void)
 {
