@@ -7,16 +7,16 @@
 
 int main(void)
 {
-	char a = '0';
-	char c = 'a';
+	char a;
+	char c;
 
-	while (a <= '9');
-	{putchar(a);
-	a++;
+	for (a = 0; a <= 9; a++)
+	{
+	putchar(a + '0');
 	}
-	while (c <= 'f')
-	{putchar(c);
-	c++;
+	for (c = 'a'; c <= 'f'; c++)
+	{
+	putchar(c);
 	}
 	putchar('\n');
 	return (0);
