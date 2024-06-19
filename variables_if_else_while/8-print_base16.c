@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * main - Prints the numbers
+ * main - Prints the numbers 0 at 9 and six first character
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	int a, j;
+	char a = '0';
+	char c = 'a';
 
-	for (a = 0; a < 16; a++)
-	{
-	putchar((j / 16) + '0');
+	while (a <= '9');
+	{putchar(a);
+	a++;
 	}
-	for (j = 0; j <= 16; j++)
-	{
-	putchar((j % 16) + '0');
+	while (c <= 'f')
+	{putchar(c);
+	c++;
 	}
-	if (j > 9)
 	putchar('\n');
 	return (0);
 }
