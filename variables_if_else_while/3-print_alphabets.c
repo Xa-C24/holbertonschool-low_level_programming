@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - Prints the last digit of a randomly generated number
@@ -9,18 +7,16 @@
  */
 int main(void)
 {
-	char az;
-	char AZ;
+char c;
 
-	for (az = 'a'; az <= 'z'; az++);
-	{
-		putchar(az);
-	}
-	for (AZ = 'A' ; AZ <= 'Z' ; AZ++);
-	{
-		putchar(AZ);
-	}
-		putchar('\n');
-
-	return (0);
+for (c = 'a'; c <= 'z'; c++);
+{
+putchar(c);
+}
+for (c = 'A' ; c <= 'Z'; c++);
+{
+putchar(c);
+}
+putchar('\n');
+return (0);
 }
