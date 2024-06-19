@@ -2,7 +2,8 @@
 
 int main(void)
 /**
- * Descrption: main - Prints the numbers 1 à 9
+ * main - Prints the last digit of a randomly generated number
+ * Descrption:Prints the numbers 1 à 9
  *
  * Return: Always 0.
  */
