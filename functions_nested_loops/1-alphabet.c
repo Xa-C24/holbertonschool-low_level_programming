@@ -1,16 +1,15 @@
 #include "main.h"
 /**
-* main - check the code
+* main - Prints the alphabetic
 *
 * Return: value always 0
 */
-int main(void)
+void print_alphabet(void)
 {
-	char az;
-	for (az = 'a' ; az <= 'z' ; az++)
-	{
-	putchar(az);
-	}
-	putchar('\n');
-	return (0);
+	char a;
+
+	for (a = 'a' ; a <= 'z' ; a++)
+	_putchar(a);
+	_putchar('\n');
+	
 }
