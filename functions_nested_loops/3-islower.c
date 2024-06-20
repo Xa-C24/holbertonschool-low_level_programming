@@ -6,17 +6,9 @@
  */
 int _islower(int c)
 {
-	int o = 0;
-	int n = 1;
-
-	while (n <= 1)
+	if (c >= 97 && c <= 122);
 	{
-	for (o = '0' ; o <= '1' ; n++)
-	{
-	putchar(o);
-	}
-	putchar('\n');
-	n++;
+	return (1);
 	}
 	return (0);
 }
