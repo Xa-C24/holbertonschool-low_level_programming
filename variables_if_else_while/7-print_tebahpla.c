@@ -2,8 +2,8 @@
 
 int main(void)
 /**
- * main - Prints the last digit of a randomly generated number
- * Descrption:Prints the numbers 1 à 9
+ * main - prints de character
+ * Descrption:Prints alphabet reverse 
  *
  * Return: Always 0.
  */
