@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main - entry for point
+ * main - check the code
+ * 
  * Return: value always 0
  */
 int main(void)
 {
-		char c[8] = "_putchar";
-		int a;
+	char c[8] = "_putchar";
+	int a;
 	for (a = 0; a <= 8; a++)
 {
 	_putchar(c[a]);
