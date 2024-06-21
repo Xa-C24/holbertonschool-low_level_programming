@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * -isalpha: check alphabetic character
+ *c: character checked
+ * Return: 1 for character, Always 0.
  */
 int _isalpha(int c)
 {
