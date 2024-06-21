@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
  * main - check the code
- * 
+ *
  * Return: value always 0
  */
 int main(void)
