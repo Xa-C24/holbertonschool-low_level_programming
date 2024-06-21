@@ -19,7 +19,7 @@ int main(void)
  */
 int main(void)
 {
-	char c[8] = "_putchar";
+	char c[]= "_putchar";
 	int a;
 	for (a = 0; a <= 8; a++)
 {
