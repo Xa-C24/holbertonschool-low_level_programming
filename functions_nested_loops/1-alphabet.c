@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * main - Prints the alphabetic
-*
+*File: 1-alphabet.c
 * Return: value always 0
 */
 void print_alphabet(void)
@@ -11,5 +11,4 @@ void print_alphabet(void)
 	for (a = 'a' ; a <= 'z' ; a++)
 	_putchar(a);
 	_putchar('\n');
-	
 }
