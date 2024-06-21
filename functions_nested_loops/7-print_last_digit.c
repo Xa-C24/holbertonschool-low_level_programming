@@ -3,11 +3,11 @@
 /**
  * print last digit - print last number
  * @n the number
- *
+ * Descriptionint print_last_digit function print_last_digit
  * Return: value of last digit
  */
 int print_last_digit(int n)
-{
+{ 
 	int last_digit = n % 10;
 
 	if (last_digit < 0)
