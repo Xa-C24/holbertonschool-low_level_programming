@@ -4,16 +4,25 @@
  */
 void print_to_98(int n)
 {
-	if (n >= 98)
+	int i, target, comma = 0;
+
+	target = 98;  /* Change this value to adjust number to print to */
+
+	if (n <= target)
 	{
-		while (n > 98)
-			printf("%d, ", n--);
-		printf("%d\n", n);
+		for (i = n; i <= target; i++)
+		{
+			comma == 0 ? comma = 1 : printf(", ");
+			printf("%d", i);
+		}
 	}
 	else
 	{
-		while (n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
+		for (i = n; i >= target; i--)
+		{
+			comma == 0 ? comma = 1 : printf(", ");
+			printf("%d", i);
+		}
 	}
+	putchar('\n');
 }
