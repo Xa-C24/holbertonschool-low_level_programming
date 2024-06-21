@@ -2,26 +2,13 @@
 /**
  * main - check the code
  *
- * Return: value always 0.
- */
-#include "main.h"
-/**
- * main - check the code
- *
- * Return: value always 0
- */
-int main(void)
-#include "main.h"
-/**
- * main - check the code
- *
  * Return: value always 0
  */
 int main(void)
 {
 	char c[]= "_putchar";
 	int a;
-	for (a = 0; a <= 8; a++)
+	for (a = 0; a; a++)
 {
 	_putchar(c[a]);
 }
