@@ -1,28 +1,40 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * 
  */
 void print_to_98(int n)
 {
-	int i, target, comma = 0;
-
-	target = 98;  /* Change this value to adjust number to print to */
-
-	if (n <= target)
+	if (n <= 98)
 	{
-		for (i = n; i <= target; i++)
-		{
-			comma == 0 ? comma = 1 : printf(", ");
-			printf("%d", i);
-		}
+	for (; 98;n ++)
+	{
+	if (n == 98)
+	{
+	printf("%d", n);
+	printf("\n");
+	break;
 	}
 	else
 	{
-		for (i = n; i >= target; i--)
-		{
-			comma == 0 ? comma = 1 : printf(", ");
-			printf("%d", i);
-		}
+	printf ("%d, ", n);
 	}
-	putchar('\n');
-}
+	}
+	}
+	else 
+	{
+	for (; n >= 98; n--)
+	{
+	if (n == 98)
+	{
+	printf("%d", n);
+	printf("\n");
+	break;
+	}
+	else
+	{
+	printf("%d, ",n);
+	}
+	}
+	}
+}	
