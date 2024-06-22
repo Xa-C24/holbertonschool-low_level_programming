@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
+ * _islower - Checks if a character is lowercase.
+ * @c: The character to be checked.
  *
- * Return: value always a
+ * Return: 1 if character is lowercase, 0 otherwise.
  */
 int _abs(int a)
 {
