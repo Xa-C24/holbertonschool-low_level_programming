@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * Print_most_numbers: Print numbers without 2 and 4
- *
- * Putchar: print de numbers
- */
+*print_most_numbers - print numbers without 2 and 4
+*
+*/
 void print_most_numbers(void)
 {
 	int a;
