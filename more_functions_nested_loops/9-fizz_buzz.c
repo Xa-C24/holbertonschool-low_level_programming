@@ -4,7 +4,8 @@
  * FizzBuzz
  *
  * A program that prints the numbers from 1 to 100.
- * Multiples of three print “Fizz” instead of the number, and multiples of five print “Buzz”.
+ * Multiples print “Fizz” instead of the number,
+ * and multiples of five print “Buzz”.
  * For numbers which are multiples of both three and five print “FizzBuzz”.
  */
 int main(void)
@@ -26,7 +27,7 @@ int main(void)
 			{
 				printf("Buzz");
 			}
-		else 
+		else if
 		{
 			printf("%d", b);
 		}
