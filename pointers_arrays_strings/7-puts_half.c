@@ -12,14 +12,14 @@ void puts_half(char *str)
 	}
 	ip = b;
 	if (ip % 2 != 0)
-		ip = (ip +1) /2;
+		ip = (ip + 1) / 2;
 
 		else
 			ip /= 2;
 		while (ip < b)
 		{
 			ip++;
-			_putchar (*(str + ip -1));
+			_putchar (*(str + ip - 1));
 		}
 		_putchar('\n');
 }
