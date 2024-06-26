@@ -3,6 +3,8 @@
  * rev_string - reverse chaine de caractère
  * @s: input string.
  *
+ * Description: print one char out of 2 of a string
+ * Return: n
  */
 void puts2(char *str)
 {
