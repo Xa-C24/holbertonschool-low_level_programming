@@ -2,7 +2,8 @@
 /**
 * main - Prints the alphabetic
 *File: 1-alphabet.c
-*Description function print alphabet: print alphabet
+*
+*Description: function print alphabet(void)
 *
 * Return: value always 0
 */
