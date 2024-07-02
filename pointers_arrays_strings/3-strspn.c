@@ -4,31 +4,22 @@
  * @s: beginning of string
  * @accept: list characters for prefix
  *
- * Return: accecpt
+ * Return: (i)
  */
 unsigned int _strspn(char *s, char *accept)
+
 {
-	unsigned int count = 0;
+	unsigned int i, j;
 
-	while (*s)
-
-	char *a = accept
-	int found = 0;
-
-	while (*a)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		if (*s == *a)
-		found = 1;
-		break;
+		j = 0;
+		while (accept[j] != '\0' && s[i] != accept[j])
+			j++;
+		if (accept[j] == '\0')
+			return (i);
+		i++;
 	}
-	a++;
-	{
-		if (!found)
-		{
-			break;
-		}
-		count++;
-		s++;
-	}
-	return (count);
+	return (i);
 }
