@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * 
- * 
+ * _strlen_recurssion - fonction return string
+ * @s: print the string
+ *
+ * Return: longest string
  */
 int _strlen_recursion(char *s)
 {
