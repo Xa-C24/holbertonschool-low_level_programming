@@ -5,13 +5,15 @@
  */
 char *string_toupper(char *)
 {
-	char sentence[] = "Look up!\n";
+	char b[] = "Look up!\n";
 
 	int i;
-		for (i = 0; i < strlen (sentence); i++)
+		for (i = 0; i < strlen (b); i++)
 		{
-			sentence[i] = toupper(sentence[i]);
-			printf(sentence[i]);
+			b[i] = toupper(b[i]);
+		{
+			printf(b[i]);
+		}
 		}
 		printf("\n");
 
