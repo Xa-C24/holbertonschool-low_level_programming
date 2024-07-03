@@ -1,37 +1,37 @@
 #include "main.h"
+
 /**
  *
  *
  */
-int is_prime_number(int n)
-
-	/**
- * is_prime_number - checks if number is prime
- * @n: number to check
- *
- * Return: 1 if prime, otherwise 0
- */
+int is_prime_helper(int n, int i)
 {
-	if (n <= 1)
-		return (0);
-
-	return (check_prime(n / 2 + 1, n));
+    if (i > sqrt(n))
+    {
+        return (1);
+    }
+    if (n % i == 0)
+    {
+        return (0);
+    }
+    return (is_prime_helper(n, i + 1));
 }
 
 /**
- * check_prime - checks if a number is prime
- * @i: number to check if is divisible by, starting at highest number
- * @n: number to check if is prime
+ * is_prime_number - vérifie si un nombre est premier
+ * @n: le nombre à vérifier
  *
- * Return: 1 if prime, 0 otherwise
+ * Return: 1 si le nombre est premier, sinon 0
  */
-int check_prime(int i, int n)
+int is_prime_number(int n)
 {
-	if (i == 1)
-		return (1);
-
-	if (n % i == 0)
-		return (0);
-
-	return (check_prime(i - 1, n));
+    if (n <= 1)
+    {
+        return (0);
+    }
+    if (n == 2)
+    {
+        return (1);
+    }
+    return (is_prime_helper(n, 2));
 }
