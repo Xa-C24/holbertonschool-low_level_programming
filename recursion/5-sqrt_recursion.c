@@ -4,7 +4,7 @@
  *
  *
  */
- int _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 
 {
 	return (check_square(0, n));
