@@ -1,8 +1,11 @@
 	#include <stdio.h>
 
 	/**
+	 * main - Print the number of argument
+	 * @argc: Number of command line argument
+	 * @argv: array name
 	 *
-	 *
+	 * Return 0
 	 */
 	int main(int argc, char *argv[])
 	{
