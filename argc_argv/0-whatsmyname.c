@@ -1,7 +1,7 @@
 #include <stdio.h>
 
  /**
- * main - Prints name of command called
+ * main - function to print file name
  * @argc: number of arguments including command name
  * @argv: Pointer to array of pointers to arguments as strings including
  *			command name
