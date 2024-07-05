@@ -1,7 +1,10 @@
 		#include <stdio.h>
 		#include <stdlib.h>
 		/**
-		 *
+		 * main - Entry point
+		 * @argv: incoming argument
+		 * @argc: incomning argument
+		 * Return: always 0
 		 *
 		 */
 int main (int argc, char *argv[])
