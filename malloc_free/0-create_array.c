@@ -6,13 +6,13 @@
  * @size: size of tab
  * @c : character in the tab
  *
- *Return: pointer to tab, NULL if fails
+ * Return: pointer to tab, NULL if fails
 */
 
-*create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *array;
-	int i;
+	unsigned int i;
 
 	if (size == 0)
 	{
@@ -26,9 +26,9 @@
 	}
 
 		for (i = 0; i < size; i++)
-
 		{
 		array[i] = c;
 		}
+
 		return (array);
 }
