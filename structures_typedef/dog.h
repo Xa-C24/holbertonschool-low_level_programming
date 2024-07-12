@@ -8,10 +8,15 @@
  *
  */
 
-struct  dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
-#endif
+} dogy_dog;
+
+	void init_dog(dogy_dog *d, char *name, float age, char *owner);
+	void print_dog(struct dog *d);
+
+
+	#endif
