@@ -9,21 +9,26 @@
 	*/
 char *_strdup(char *str)
 {
-	char *s;
-	size_t len;
+	char *tab;
+	int i, len;
 
-	if (str == 0)
+	tab = malloc(sizeof(str));
+
+	i = len = 0;
+	while (str[i] != '\0')
 	{
-		return (NULL);
+		len++;
+		i++;
 	}
 
-	len = strlen(str);
-	s = malloc((len + 1) * sizeof(char));
-
-	if (s == NULL)
-	{
+	if (tab == NULL)
 		return (NULL);
+	i = 0;
+	while (str[i] != '\0')
+	{
+		tab[i] = str[i];
+		i++;
 	}
-	strcpy(s, str);
-	return (s);
+
+	return (tab);
 }
