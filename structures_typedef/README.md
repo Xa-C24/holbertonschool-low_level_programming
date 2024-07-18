@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 	_structures_typedef
 
