@@ -1,4 +1,10 @@
-#!/bin/bash
+
+_functions_nested_loops
+
+	Functions and nested loops are two fundamental concepts in programming. 
+When we combine these two concepts, we can create powerful and efficient code structures to solve complex problems. 
+Functions A function is an autonomous block of code that performs a specific task.
+ It is used to modularise code, making it more readable and reusable.
 This project in the Low Level Programming series is about:
 
 What are nested loops and how to use them
