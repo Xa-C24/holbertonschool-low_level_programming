@@ -10,7 +10,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	char *str;
+	
 	unsigned int i = 0, j = 0, c = 0;
 	char *str;
 	const char t_arg[] = "cifs";
@@ -52,8 +52,9 @@ void print_all(const char * const format, ...)
 
 				printf("%s", str);
 				break;
-		} i++;
-
+				i++;
+		} 
+		
 	}	
 		
 		printf("\n");
