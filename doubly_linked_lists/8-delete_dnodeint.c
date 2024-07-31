@@ -1,3 +1,5 @@
+/*Write a function that deletes the node at index index of a dlistint_t linked list.*/
+
 #include "lists.h"
 /**
  * 
@@ -10,15 +12,10 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	dlistint_t *temps = NULL;
 	unsigned int i = 0;
 
-	if (head == NULL || head == NULL)
+	if (head == NULL || *head == NULL)
 		{
 			return (-1);
 		}
-
-	if (index == 0)
-	{
-		return (1);
-	}
 
 	if (index == 0)
 	{
@@ -26,6 +23,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		*head = (*head)->next;
 		if (*head != NULL)
 			(*head)->prev = NULL;
+		
 		free(temps);
 		{
 			return (1);
@@ -51,7 +49,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	
 	free(current);
 	{
-		return (-1);
+		return (1);
 	}
 
 }
