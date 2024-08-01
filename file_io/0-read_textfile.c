@@ -18,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	/* Open the file in read-only mode, get the file descriptor.*/
 
-	file = open(filename, O_RDONLY);
+	file = open(filename, O_RDONLY, O_WRONLY, O_TRUNC);
 	if (file == -1)
 		return (0);
 
